@@ -1,0 +1,10 @@
+---
+# tasks file for roles/django-deploy
+
+# Provisioning and deployment
+- include: system.yml
+- include: packages.yml
+- include: update.yml
+
+# Deployment stage
+- include: deployment.yml
